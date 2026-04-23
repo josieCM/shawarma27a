@@ -30,7 +30,6 @@ export const MENU_DATA = [
         tag: 'Popular',
         category: 'Birthday Packs',
         image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=800&auto=format&fit=crop'
-	
       },
       {
         id: 'bp-2',
@@ -40,11 +39,11 @@ export const MENU_DATA = [
         description: 'Zege cake Ngazi 4, Kuku Choma 2, Beef Mishkaki 8, Sausage 8, Chips Kavu 2, Soda BONGE 2',
         tag: 'Large',
         category: 'Birthday Packs',
-      	image: 'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?q=80&w=800&auto=format&fit=crop'
-     }
+        image: 'https://images.unsplash.com/photo-1529006557810-274b9b2fc783?q=80&w=800&auto=format&fit=crop'
+      }
     ]
   },
-
+	
   // 🎁 LOVE BOX
   {
     id: 'love-box',
@@ -164,31 +163,31 @@ export const MENU_DATA = [
   },
 
   // 🍖 PLATTERS
-  {
-    id: 'platters',
-    title: 'Platters',
-    items: [
-      {
-        id: 'pl-1',
-        name: 'SOTOJO PLATTER',
-        price: '35,000/=',
-        numericPrice: 35000,
-        description: 'Kuku Makange + Changamoto + Kuku Choma 1/2 + Mishkaki + Sausage + Chips',
-        tag: 'Group',
-        category: 'Platters', 
-        image: 'https://ibb.co/WWqCGjJr’
-      },
-      {
-        id: 'pl-2',
-        name: 'UGALI SOTOJO',
-        price: '23,000/=',
-        numericPrice: 23000,
-        description: 'Kuku Makange + Kuku Choma 1/2 + Mishkaki + Ugali + Ndizi',
-        category: 'Platters',
-	      image: 'https://ibb.co/s9VGnTZk'
-      }
-    ]
-  },
+{
+  id: 'platters',
+  title: 'Platters',
+  items: [
+    {
+      id: 'pl-1',
+      name: 'SOTOJO PLATTER',
+      price: '35,000/=',
+      numericPrice: 35000,
+      description: 'Kuku Makange + Changamoto + Kuku Choma 1/2 + Mishkaki + Sausage + Chips',
+      tag: 'Group',
+      category: 'Platters',
+      image: 'https://ibb.co/WWqCGjJr'
+    },
+    {
+      id: 'pl-2',
+      name: 'UGALI SOTOJO',
+      price: '23,000/=',
+      numericPrice: 23000,
+      description: 'Kuku Makange + Kuku Choma 1/2 + Mishkaki + Ugali + Ndizi',
+      category: 'Platters',
+      image: 'https://ibb.co/s9VGnTZk'
+    }
+  ]
+}
 
   // 🍔 BIG BITES
   {

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 36 100% 98%;
+    --foreground: 0 0% 12%;
+    --primary: 25 100% 50%;
+    --radius: 1.5rem;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply antialiased text-secondary bg-cream;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.neu-card {
+  @apply bg-cream shadow-neu-md rounded-[2rem] border border-white/50;
+}
+
+.neu-button {
+  @apply bg-cream shadow-neu-sm rounded-full border border-white/50 active:shadow-neu-inset transition-all duration-200;
+}
+
+.neu-button-primary {
+  @apply bg-primary text-white shadow-lg shadow-primary/30 rounded-full active:scale-95 transition-all duration-200;
+}

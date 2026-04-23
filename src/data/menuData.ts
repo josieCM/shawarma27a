@@ -187,7 +187,7 @@ export const MENU_DATA = [
       image: 'https://ibb.co/s9VGnTZk'
     }
   ]
-}
+},
 
   // 🍔 BIG BITES
   {
